@@ -1,0 +1,19 @@
+<html>
+  <head><title></title></head>
+  <body>
+   
+     <!-- conditional statement-->
+    <h1>Hey <%= username.toUpperCase() %>, Welcome to Our site</h1>
+        
+    <% if(username.toLowerCase() === "danny"){ %>
+    <p>Danny you are Beautiful!</p>
+    <% } else { %>
+    <p>You are not Danny, you are not Beautiful!</p>
+    <% } %>
+    
+    <div><% 10+5 %> one</div> 
+    <div><%= 10+5 %> second</div> 
+
+    
+  </body>
+</html>
